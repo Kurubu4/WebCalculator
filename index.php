@@ -4,7 +4,7 @@
         $num1 = $_GET['num1'];
         $num2 = $_GET['num2'];
         $operator = $_GET['operator'];
-        
+
         $errors = array();
         if ($num1 === "") {
             $errors['num1'] = "number1 is not entered";
@@ -78,7 +78,7 @@
         </select>
         <button type="submit" name="submit" value="submit">Calculate</button>
     </form>
-    <?php 
+    <?php
         echo "<h2>The Answer is :" . $answer . "</h2>";
     ?>
 </body>
